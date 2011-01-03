@@ -15,9 +15,9 @@
 
 
 SHELL     = /bin/bash
-MAIN      = template
-TEXFILES  = template.tex
-BIBFILES  = template
+MAIN      = 300
+TEXFILES  = 300.tex
+BIBFILES  = 300
 LATEX     = latex
 PS        = dvips
 PSFLAGS   = -f -t letter -Ppdf
