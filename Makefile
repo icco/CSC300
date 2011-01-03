@@ -12,18 +12,14 @@
 #          	 to view it
 #   clean    --- cleans up intermediate files
 #   allclean --- cleans up everything that can't be regenerated
-#
-SHELL = /bin/sh
 
-MAIN  = template
 
-TEXFILES = template.tex 
-
+SHELL    = /bin/bash
+MAIN     = template
+TEXFILES = template.tex
 BIBFILES = template
-
-LATEX   = latex
-
-PS    = dvips
+LATEX    = latex
+PS       = dvips
 
 PSFLAGS = -f -t letter -Ppdf
 
@@ -41,9 +37,9 @@ all:    ps pdf
 
 ps:     $(MAIN).ps
 
-pdf:	$(MAIN).pdf
+pdf:    $(MAIN).pdf
 
-pre:	pspre
+pre:    pspre
 
 pspre:  $(MAIN).ps
 	$(PSVIEWER) $(PSPFLAGS) $(MAIN).ps &
@@ -65,7 +61,6 @@ print: $(MAIN).ps
 	fi
 	bibtex $(BIBFILES)
 	$(LATEX) $<
-  
 
 %.ps: %.dvi
 	$(PS) $(PSFLAGS) $(MAIN).dvi > $(MAIN).ps
@@ -81,5 +76,3 @@ allclean: clean
 
 bibclean: allclean
 	rm -f $(MAIN).bbl $(MAIN).blg $(MAIN).synctex.gz 
-
-
