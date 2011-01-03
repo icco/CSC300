@@ -11,7 +11,7 @@
 #   pdfpre   --- builds the pdf version of the document and starts acroread
 #          	 to view it
 #   clean    --- cleans up intermediate files
-#   allclean --- cleans up everything that can't be regenerated
+#   allclean --- cleans up everything that can be regenerated
 
 
 SHELL    = /bin/bash
