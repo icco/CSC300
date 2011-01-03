@@ -14,22 +14,19 @@
 #   allclean --- cleans up everything that can be regenerated
 
 
-SHELL    = /bin/bash
-MAIN     = template
-TEXFILES = template.tex
-BIBFILES = template
-LATEX    = latex
-PS       = dvips
-
-PSFLAGS = -f -t letter -Ppdf
-
-PSPFLAGS 	= -geometry +10+10 -watch
-
-PSVIEWER = gv
-
+SHELL     = /bin/bash
+MAIN      = template
+TEXFILES  = template.tex
+BIBFILES  = template
+LATEX     = latex
+PS        = dvips
+PSFLAGS   = -f -t letter -Ppdf
+PSPFLAGS  = -geometry +10+10 -watch
+PSVIEWER  = gv
 PDFVIEWER = acroread
-
 PDFPFLAGS = -geometry +10+10
+EXTRACLEAN= *.bbl *.blg *.toc
+
 
 .PHONY: all ps pdf pre pspre print clean
 
