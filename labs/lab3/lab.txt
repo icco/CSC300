@@ -1,0 +1,91 @@
+﻿Argumentation Lab
+
+Nathaniel Welch (Working alongside Mark Gius)
+
+For each of the following arguments, provide a once sentence explanation for why it is a correct or incorrect argument from a rational perspective (logically invalid, lack of evidence, correlation is not causation, etc). Yes, some of these arguments are so wrong that it seems impossible someone would argue them. Sadly, all of these are drawn from real life examples.
+
+Part A)
+
+1. If Goku is a triangle, then given a triangle, it is Goku.  
+
+This implies if A then B is the same as if B then A. This is logically incorrect because Vegeta could also be a triangle, yet Vegeta != Goku.  
+
+2. Two interviewed serial killers said they were corrupted by porn and that’s why they killed. Thus, if you watch porn, you will become a serial killer.
+
+This is classic guilt by association.
+
+3. Because you can see the source code of open source software, it’s more vulnerable to attack.  
+
+Lack of evidence.
+
+4. Reliability testing methods that work for mechanical engineers should work for software engineers, because they both build systems out of component parts. It’s just another kind of engineering!
+
+This is logically valid, but it has been shown to be wrong.
+
+5. “Your OS is bad because it’s slow, poorly designed, and is missing basic features other OSes have.” It works for me, so it’s good enough for everybody else. (analyze the second sentence)
+
+Assumes that people do not have differences in taste, thus has a faulty assumption. The guy also sounds like a prick.
+ 
+6. The Therac-25 incident was shown to be caused by lack of adequate testing. Software engineers should thus be licensed.  
+
+Lack of evidence that licensing software engineers would prevent future incidences.
+
+7. The Therac-25 incident was shown to be caused by lack of adequate testing. We have proved that inadequate testing can be remedied by requiring engineers in such fields to become licensed [Fisher, 2020]. Thus, Software engineers should be licensed. (Assume sentence 2 is cited and adequately proven)  
+
+Logically valid.
+
+8. I don’t play guitar hero because I play real guitar.
+
+The speaker is stating that he plays guitar, which does not explain why he doesn't play guitar hero. The two are not mutually exclusive.
+
+9. There aren’t enough girls in the CSC major because girls aren’t cut out for it. (If you say this is valid, you auto-fail)  
+
+Makes a conclusion based on an unrelated and unproven premise.
+
+10. You should’ve bought me a slice of pizza! “You said you didn’t want one when I asked.” But you should’ve known I actually wanted one!  
+
+Conclusion is a direct negation and violation of premise.
+
+11. The software engineering code provides a framework within which to make good decisions. It is available on the internet. Thus, you should use the SE code of ethics.  
+
+This is square logic, but because Mark Gius thinks this isn't enough of an answer, I will say that the two evidence statements have no relation to the conclusion, which renders this argument invalid.
+
+12. Java is better than Ruby because Java is object-oriented.
+
+Ruby is object oriented, thus the speaker is just an idiot. Fallacy of being a fucking moron?
+
+13. You are beating me in Starcraft, thus clearly you are cheating.
+
+Lack of evidence between premise and conclusion.
+
+14. Everyone on America's Next Top Model is beautiful because all models are beautiful.
+
+Implies that everyone on the show is a model, which the show's premise says is not the case.
+
+B)
+
+Pick two of the above sentences and lay out the argument as premises and conclusions, showing the correctness or incorrectness clearly.
+
+Premise: All models are beautiful
+< Missing Premise >: Everyone on America's Next Top Model is a model
+Conclusion [Incorrect]: Everyone on America's Next Top Model is beautiful
+
+Premise: The Therac-25 incident was shown to be caused by lack of adequate testing.
+< Missing Premise >: Licensed software engineers test their code better.
+Conclusion [Incorrect]: Software engineers should thus be licensed.
+
+C)
+
+Find a coherent argument in the comment thread of a YouTube video and write it below. The thread must be at least 3 comments long, but I suggest you don’t go for any longer. The argument does not have to be a continuous thread of comments, just related responses.
+
+Bonus: find the comments on a video relating to the Justin Beiber.
+
+http://www.youtube.com/comment_servlet?threaded=1&all_comments=1&v=U4oB28ksiIo
+
+User 1: im sorry for the guy that uses the stolen computer...
+User 2: Why? He's a criminal this is the least he deserves
+User 3: He's not a criminal. He has not been charged with any crime and there is no evidence he committed a crime.
+User 2: He stole a computer, that's a crime. He is a criminal
+User 3: Where's your proof that this guy stole anything? The computer had been missing for two years. You think that a guy who breaks into houses and steals computers isn't going to sell the machine? You think there's no possibility that Guzman purchased this computer used? No evidence equals innocent. Prove he's guilty and it's another matter. But this mob mentality bullshit is seriously getting old.
+
+Turner, CSC 300 Winter 2010
