@@ -58,6 +58,7 @@ print: $(MAIN).ps
 	fi
 	bibtex $(BIBFILES)
 	$(LATEX) $<
+	$(LATEX) $<
 
 %.ps: %.dvi
 	$(PS) $(PSFLAGS) $(MAIN).dvi > $(MAIN).ps
