@@ -3,74 +3,74 @@
 % Dr. Clark Turner
 
 % One Column Format
-\documentclass[12pt]{article} 
+\documentclass[11pt]{article}
 
 \usepackage{setspace}
 \usepackage{url}
 
 %%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
-\geometry{letterpaper} 
+\geometry{letterpaper}
 
 
 \begin{document}
-
-\title{\vfill Term Paper Proposal} %\vfill gives us the black space at the top of the page
+\title{\vfill Term Paper Proposal} % \vfill gives us the black space at the top of the page
 \author{
- By Nathaniel Welch \vspace{10pt} \\ 
-CSC 300: Professional Responsibilities  \vspace{10pt} \\ 
-Dr. Clark Turner \vspace{10pt} \\ 
+By Nathaniel Welch\vspace{10pt}\\
+CSC 300: Professional Responsibilities\vspace{10pt}\\
+Dr. Clark Turner\vspace{10pt}\\
 }
-\date{October 8, 2010} %Or use \Today for today's Date
+\date{\today}
 
 \maketitle
 
-\vfill  %in combinaion with \newpage this forces the abstract to the bottom of the page
+\vfill % in combinaion with \newpage this forces the abstract to the bottom of the page
 \begin{abstract}
-one or two paragraphs to describe in very general terms the motivating facts, the question asked, one or two arguments and your ultimate answer and the basic principles upon which it rests. This would be the 30 second summary you might give your mother or friend. \cite{handout}
+% One or two paragraphs to describe in very general terms the motivating facts, the question asked, one or two arguments and your ultimate answer and the basic principles upon which it rests. This would be the 30 second summary you might give your mother or friend. \cite{handout}
 
-The electronic devices we use are physical objects that we paid (potentially) exorbitant amounts of money for, and therefore they are our property. Traditionally, property that is owned by a person is subject to certain rules that protect it from being modified and used by non-owners. It is illegal, for example, for a person to break into somebody's car and modify the interior coloring or take the stereo out. Recently, however, with regards to electronic devices, this concept of ownership is being challenged.
+One of the classic arguments of the last century has been the debate of who owns what information. In this paper I will try to address the most recent change to that debate. If someone is distributing information on the internet, are they to be held responsible for the content they share?
 
-In June 2010, some owners of Android-based cellular phones were greeted with a surprise as they discovered that two programs, which are unnamed, were deleted from their phone without their consent. \cite{AndroidBlog} This "remote kill switch" similar to previously discovered functionality in Apple's iPhone. \cite{iPhoneKill} The question becomes quite clear: Is it ethical for software developers, hardware manufacturers, and/or service carriers to remotely remove applications from devices \emph{that we own} without our permission? Taking into special account the "Software Engineering Code of Ethics," which guides all software professionals in ethical matters, it becomes quite clear that tampering with a device without consent of the device's owner is unethical at best, and dangerous at worst.
+In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. On the 17th of April, 2009, Peter Sunde, Fredrik Neij, Gottfrid Svartholm and Carl Lundström of The Pirate Bay were all found guilty ``for promoting the copyright infringement of others'' and sentenced to serve one year in prison and pay a fine of \$3.5 million. \cite{tpbverdict}
+
+According to the Software Engineering Code of Ethics, is it ethical to build a system that lets people share and distribute information that may be harmful to others?
 \end{abstract}
 
-\thispagestyle{empty} %remove page number from title page, but still keep it as pg #1
+\thispagestyle{empty} % remove page number from title page, but still keep it as pg #1
 \newpage
 
-
-
 %%%%%%%%%%%%%%%%%%%%
-%%% Known Facts  %%%
+%%% Known Facts %%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Facts}
-Known facts that are not disputed that lead to your question. Do not judge these facts or make anything like an argument for an answer in here. Just note the facts that give us the general background and end them with the facts leading to the controversy you are interested in. The reader should naturally be asking the question you'll be asking by that point in your paper. In general, attach your facts to a specific case, the more specific and detailed the facts, the better for your analysis. Cite all facts to their sources. \cite{handout}
+% Known facts that are not disputed that lead to your question. Do not judge these facts or make anything like an argument for an answer in here. Just note the facts that give us the general background and end them with the facts leading to the controversy you are interested in. The reader should naturally be asking the question you'll be asking by that point in your paper. In general, attach your facts to a specific case, the more specific and detailed the facts, the better for your analysis. Cite all facts to their sources. \cite{handout}
 \begin{enumerate}
-\item The Android Market allows for Google to remotely remove applications from end users' mobile devices as per provision 2.4. \cite{AndroidMarketTOS}
-\item Apple also has the capability to remotely remove applications at their discretion. \cite{iPhoneKill}
-\item Sony removed the ability for Playstation 3 systems to install alternative OSes (which resulted in a class action lawsuit). \cite{sonyLawsuit}
-\item Google invoked their "kill switch" in June of 2010 when they removed two applications from the Android Market and the phones that the applications were installed on. \cite{AndroidBlog}
-\item Google's Android platform is touted as a free and open source platform. \cite{androidOpen}
+\item Music, books, movies, pictures, and architechture are all copyrighted under United States Law. \cite{t17c1s102}
+\item United States Copyright law only affects works published in the USA or made by US citizens \cite{t17c1s103}
+\item According to Swedish Law, promoting others to break the law is illegal -- not true, what about US?
+\item -- something about the content of the sites,
+\item -- something from the SE code
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Research Question %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Question}
-Your research question - this is the ethical question you are interested in answering. It should be one simple sentence and lead to a yes/no answer. It needs to be very narrowly focused, specific, and not abstract at all. It's best to question a detailed case in the general area of your interest. Open ended questions are very hard to answer. \cite{handout}
+% Your research question - this is the ethical question you are interested in answering. It should be one simple sentence and lead to a yes/no answer. It needs to be very narrowly focused, specific, and not abstract at all. It's best to question a detailed case in the general area of your interest. Open ended questions are very hard to answer. \cite{handout}
 
-Is it ethical for software developers, hardware manufacturers, and/or service carriers to remotely remove applications from devices \emph{that we own} without our permission?
+Is it ethical for software developers to create tools to help others disseminate information without any restrictions on content?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Extant Arguments from External Sources %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Extant arguments}
-Extant arguments - this is where you gather the arguments made by others interested in the same question. No judgments, just repeat their arguments for the answer in the best possible light from the arguer's perspective. Cover both sides of your question (the "yes" side and the "no" side) to get a complete picture of how others are thinking about it. Do not include any general ethical principles in here unless they are explicitly written up in the arguments. Cite all arguments to their sources. \cite{handout}
+% Extant arguments - this is where you gather the arguments made by others interested in the same question. No judgments, just repeat their arguments for the answer in the best possible light from the arguer's perspective. Cover both sides of your question (the "yes" side and the "no" side) to get a complete picture of how others are thinking about it. Do not include any general ethical principles in here unless they are explicitly written up in the arguments. Cite all arguments to their sources. \cite{handout}
 
 It is ethical to allow others to modify our devices without our consent:
 \begin{itemize}
 \item Being able to remotely disable programs is critical to the security of end users. \cite{AndroidBlog} \cite{iPhoneKill}
 \item The ability to remotely disable functionality is important to company security. \cite{sonySupercomputer}
 \end{itemize}
+
 It is not ethical to allow others to modify our devices without our consent:
 \begin{itemize}
 \item Disabling functionality on devices is "unfair and deceptive business practice..." \cite{sonyLawsuit2}
@@ -78,11 +78,11 @@ It is not ethical to allow others to modify our devices without our consent:
 \item Disabling software and/or functionality can hurt the advancement of certain scientific fields in some cases. \cite{sonySupercomputer}
 \end{itemize}
 
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Analytic principles %%%
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Applicable analytic principles}
-Applicable analytic principles - give a list of the basic ethical (and other) principles you'll rely on to come up with your analysis, include several explicit principles from the SE Code of Ethics, deontological principles, utilitarianism (rule-utilarianism) as well as others that will aid you. Indicate generally how they apply to your specific case. Cite any additional facts or principles you'll need. Cite to sources for the principles you list. \cite{handout}  
+%Applicable analytic principles - give a list of the basic ethical (and other) principles you'll rely on to come up with your analysis, include several explicit principles from the SE Code of Ethics, deontological principles, utilitarianism (rule-utilarianism) as well as others that will aid you. Indicate generally how they apply to your specific case. Cite any additional facts or principles you'll need. Cite to sources for the principles you list. \cite{handout}
 
 \begin{itemize}
 \item Professionals should "disclose to appropriate persons or authorities any actual or potential danger...associated with software or related documents." \cite{secode}
@@ -93,50 +93,56 @@ Applicable analytic principles - give a list of the basic ethical (and other) pr
 \item People should act such that it causes the greatest amount of "happiness" for the most people, according to Utilitarian principles. \cite{util}
 \end{itemize}
 
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Abstract your Expected Analysis %%%
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Abstract of Expected Analysis}
-Give a short abstract of the basics you expect to analyze and present in your paper. Divide it into sections that make sense for your work.
-One way would be to: a) start with deontological perspectives as a section where you analyze those arguments based on the inherent ethics of the act itself rather than the results or tradeoffs; then, b) use a utilitarian perspective and list the appropriate analyses of the tradeoffs and stakeholders to define the most desired results and how to get them. Be explicit about
-Turner, CSC 300, Fall 2010
-the tradeoffs (what value is balanced against what other value, which stakeholders win, which stakeholders lose...) What is the "utility" in "utilitarian" in your case - what value do you want to advance the most (derived from the general utilitarian "happiness")? How do you maximize (or optimize) it?
-Note that the SE Code should be the center of your ethical analysis (and remember that it includes both deontological and utilitarian [and more] principles you can utilize). Estimate where you'll end up for your answer (you can change your mind in the final paper!). Keep referencing sources for any additional facts, quotes, or other information you might use here. \cite{handout}
+% Give a short abstract of the basics you expect to analyze and present in your paper. Divide it into sections that make sense for your work.
+
+% One way would be to: a) start with deontological perspectives as a section where you analyze those arguments based on the inherent ethics of the act itself rather than the results or tradeoffs; then, b) use a utilitarian perspective and list the appropriate analyses of the tradeoffs and stakeholders to define the most desired results and how to get them. Be explicit about the tradeoffs (what value is balanced against what other value, which stakeholders win, which stakeholders lose...) What is the "utility" in "utilitarian" in your case - what value do you want to advance the most (derived from the general utilitarian "happiness")? How do you maximize (or optimize) it?
+
+% Note that the SE Code should be the center of your ethical analysis (and remember that it includes both deontological and utilitarian [and more] principles you can utilize). Estimate where you'll end up for your answer (you can change your mind in the final paper!). Keep referencing sources for any additional facts, quotes, or other information you might use here. \cite{handout}
 
 \begin{enumerate}
+
 \item Remotely disabling or removing software/functionality on a device that one does not own is ethically sound, based on the premise of security, but is not the best way to handle it.
-\begin{enumerate}
-\item If used for the sake of security, the intent is one which is good-willed.
-\item There is a tradeoff, however, in that there are other ways to have good intent, but not be invasive (invasion of privacy violates the SE Code). \cite{secode}
-\item For example, the company could follow the mentality of virus scanning software, which simply informs the user of a problem and asks the user what to do about it, rather than assume that the user wants it gone.
-\item The tradeoff is that the public gains more freedom with their devices, while the manufacturer and developers lose a little bit of control over the software that interacts with "their" hardware and software.
-\end{enumerate}
+
+   \begin{enumerate}
+   \item If used for the sake of security, the intent is one which is good-willed.
+   \item There is a tradeoff, however, in that there are other ways to have good intent, but not be invasive (invasion of privacy violates the SE Code). \cite{secode}
+   \item For example, the company could follow the mentality of virus scanning software, which simply informs the user of a problem and asks the user what to do about it, rather than assume that the user wants it gone.
+   \item The tradeoff is that the public gains more freedom with their devices, while the manufacturer and developers lose a little bit of control over the software that interacts with "their" hardware and software.
+   \end{enumerate}
+
 \item The ability to remotely disable software is easily abused and, as such, could be detrimental to the "public good."
-\begin{enumerate}
-\item If Google or Apple determines that a common program that enables a device to perform unadvertised functionality (Tethering, for example), those applications could be seen as "malicious" and "security threats" and, as such, be subject to deletion.
-\item Once again, the tradeoff is between the freedom of the consumer to do what he wants with the device that he owns vs. the freedom of the provider to control their products.
-\end{enumerate}
+
+   \begin{enumerate}
+   \item If Google or Apple determines that a common program that enables a device to perform unadvertised functionality (Tethering, for example), those applications could be seen as "malicious" and "security threats" and, as such, be subject to deletion.
+   \item Once again, the tradeoff is between the freedom of the consumer to do what he wants with the device that he owns vs. the freedom of the provider to control their products.
+   \end{enumerate}
+
 \item It is ethical for companies to avoid deception in statements regarding their software, and hiding these "kill switches" in the depths of terms of service agreements is a shady practice. \cite{secode}
-\begin{enumerate}
-\item It is not obvious and clear when a person buys a phone or other device that Google, Apple, etc.\ have the ability to remotely disable applications.
-\item In the case of Apple's iPhone, the terms of service do not even explicitly mention that Apple has this remote "kill switch" functionality. \cite{appleTOS}
-\item In the case of Sony's Playstation 3, the company repeatedly said that it would continue supporting the "Other OS" feature. That they went back on their word is very deceptive. \cite{sonyLawsuit2}
-\end{enumerate}
+
+   \begin{enumerate}
+   \item It is not obvious and clear when a person buys a phone or other device that Google, Apple, etc.\ have the ability to remotely disable applications.
+   \item In the case of Apple's iPhone, the terms of service do not even explicitly mention that Apple has this remote "kill switch" functionality. \cite{appleTOS}
+   \item In the case of Sony's Playstation 3, the company repeatedly said that it would continue supporting the "Other OS" feature. That they went back on their word is very deceptive. \cite{sonyLawsuit2}
+   \end{enumerate}
+
 \item The ability to remotely disable software can be considered dangerous in the case where a company such as Google or Apple is compromised and a malicious person gains the ability to remotely disable software on consumers' devices.
-\begin{enumerate}
-\item This becomes the responsibility of the engineer, who, at some point, must have revealed to other workers and the companies in question the dangers of the software and its capabilities (in this case, the ability to remotely disable functionality). \cite{secode}
-\item In an admittedly rare case such as this, it is extraordinarily dangerous to have such functionality available, even if it was intended for "good."
-\end{enumerate}
+
+   \begin{enumerate}
+   \item This becomes the responsibility of the engineer, who, at some point, must have revealed to other workers and the companies in question the dangers of the software and its capabilities (in this case, the ability to remotely disable functionality). \cite{secode}
+   \item In an admittedly rare case such as this, it is extraordinarily dangerous to have such functionality available, even if it was intended for ``good''.
+   \end{enumerate}
+
 \end{enumerate}
 
-%cite all the references you want in your annotated bibliography that you cite in the paper
+% cite all the references you want in your annotated bibliography that you cite in the paper
 \nocite{texTemp}
 \nocite{BibTex}
 \nocite{BibMang}
 \nocite{bibStyle}
-
 \bibliographystyle{IEEEannot}
-
 \bibliography{proposal}
-
 \end{document}
