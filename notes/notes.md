@@ -66,7 +66,7 @@ He had his coffee today, jumping right into stuff.
    d. What arguments support the author's conclusion? How sound are they?
    e. Is this an important result?
 
-## Testing Reliability Article
+### Testing Reliability Article
 
  * Not attacking anyone
  * very few bibliographys
@@ -86,4 +86,15 @@ He had his coffee today, jumping right into stuff.
  * myths
    * Defect free software
    * testing away failure
+
+## 1.14.11
+
+ * We have the least authority to decide if our projects have value (good/bad/etc)
+ * if you are inventing something new (nuclear power), you can't declare the mean time to failure as 100 years.
+ * Trans-science: making disicions on value judgments and on things that can't be tested realisticly.
+ * Scientists can't really be argued with in court
+ * lookup contingent fees for lawyers
+ * how does bringing software into things make it different (good thought for paper)
+   * you're writting instructions for a machine
+   * static instructions for a dynamic machine
 
