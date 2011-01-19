@@ -10,7 +10,7 @@ Talked about the two articles we wrote.
 
  * should men really be focused on power / money?
  * pregnant women are awesome?
- * interesting to talk about men / women and chivalry. 
+ * interesting to talk about men / women and chivalry.
    * how does this affect computer science?
  * internet wiretapping - steven holtzapple
  * new example papers online
@@ -27,7 +27,7 @@ Talked about the two articles we wrote.
    * what is good?
    * does this code of ethics govern me?
    * are students professionals? are students covered by the code.
- * penalties for disobeying the code? 
+ * penalties for disobeying the code?
    * none really right now. why?
  * conflicts of interest - make sure you know define
    * 4.05
@@ -91,10 +91,24 @@ He had his coffee today, jumping right into stuff.
 
  * We have the least authority to decide if our projects have value (good/bad/etc)
  * if you are inventing something new (nuclear power), you can't declare the mean time to failure as 100 years.
- * Trans-science: making disicions on value judgments and on things that can't be tested realisticly.
+ * Trans-science: making decisions on value judgments and on things that can't be tested realistically.
  * Scientists can't really be argued with in court
  * lookup contingent fees for lawyers
  * how does bringing software into things make it different (good thought for paper)
-   * you're writting instructions for a machine
+   * you're writing instructions for a machine
    * static instructions for a dynamic machine
 
+## 1.19.11
+
+ * Why just have a CSC ethics course?
+ * Has the world changed enough that old ethics don't apply?
+   * How do you define steal now?
+ * What new things do computing bring to society / ethics?
+   * rights?
+   * Statue to Queen Ann and copyrights
+      * ideas should be free
+   * treat abstractions as "real" and concrete
+   * Apple vs. Franklin
+   * pseudo-random behavior
+   * power and pervasiveness
+ * TCAT System - Fly by wire
