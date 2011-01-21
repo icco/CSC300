@@ -28,9 +28,7 @@ Dr. Clark Turner\vspace{10pt}\\
 \begin{abstract}
 % One or two paragraphs to describe in very general terms the motivating facts, the question asked, one or two arguments and your ultimate answer and the basic principles upon which it rests. This would be the 30 second summary you might give your mother or friend. \cite{handout}
 
-
-
-In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. Wikileaks uses BitTorrent, a protocol written by Bram Cohen in 2001, to make sure their information is distributed internationally.
+In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. Wikileaks uses BitTorrent, a protocol written by Bram Cohen in 2001, to make sure their information is distributed internationally, so they can't be shut down.
 
 On the 17th of April, 2009, Peter Sunde, Fredrik Neij, Gottfrid Svartholm and Carl Lundström of The Pirate Bay were all found guilty ``for promoting the copyright infringement of others'' and sentenced to serve one year in prison and pay a fine of \$3.5 million. \cite{tpbverdict} Their website, the Pirate Bay, uses software they wrote to collect ``torrent files'' for a wide variety of content.
 
@@ -47,11 +45,10 @@ Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTo
 \section{Facts}
 % Known facts that are not disputed that lead to your question. Do not judge these facts or make anything like an argument for an answer in here. Just note the facts that give us the general background and end them with the facts leading to the controversy you are interested in. The reader should naturally be asking the question you'll be asking by that point in your paper. In general, attach your facts to a specific case, the more specific and detailed the facts, the better for your analysis. Cite all facts to their sources. \cite{handout}
 \begin{enumerate}
-\item Music, books, movies, pictures, and architecture are all copyrighted under United States Law. \cite{t17c1s102}
-\item United States Copyright law only affects works published in the USA or made by US citizens \cite{t17c1s103}
-\item According to Swedish Law, promoting others to break the law is illegal -- not true, what about US?
-\item -- something about the content of the sites,
-\item -- something from the SE code
+\item BitTorrent Inc. is a company founded by Brian Cohen and maintains the BitTorrent Protocol and an associated client. \cite{btabout}
+\item The BitTorrent Protocol was initially created to share files and distribute information. \cite{btabout}
+\item In a few countries, people have been prosecuted for using BitTorrent for sharing illegal files and promoting copyright infringment. \cite{tpbverdict}
+\item According to the Software Engineering Code of Ethics, all professional developers are supposed to "work to develop software and related documents that respect the privacy of those who will be affected by that software." \cite{secode}
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -62,30 +59,25 @@ Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTo
 
 Is the building and maintenance of BitTorrent (and other information distribution systems), an ethical pursuit?
 
-%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Extant Arguments from External Sources %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Extant arguments}
 % Extant arguments - this is where you gather the arguments made by others interested in the same question. No judgments, just repeat their arguments for the answer in the best possible light from the arguer's perspective. Cover both sides of your question (the "yes" side and the "no" side) to get a complete picture of how others are thinking about it. Do not include any general ethical principles in here unless they are explicitly written up in the arguments. Cite all arguments to their sources. \cite{handout}
 
-It is ethical to allow others to modify our devices without our consent:
+It is ethical to develop software to distribute information:
 \begin{itemize}
-\item Being able to remotely disable programs is critical to the security of end users. \cite{AndroidBlog} \cite{iPhoneKill}
-\item The ability to remotely disable functionality is important to company security. \cite{sonySupercomputer}
 \end{itemize}
 
-It is not ethical to allow others to modify our devices without our consent:
+It is unethical to develop software to distribute information:
 \begin{itemize}
-\item Disabling functionality on devices is "unfair and deceptive business practice..." \cite{sonyLawsuit2}
-\item Disabling "malicious" software is too broad; "malicious" is ill-defined and can be taken to mean many things. \cite{iPhoneKill}
-\item Disabling software and/or functionality can hurt the advancement of certain scientific fields in some cases. \cite{sonySupercomputer}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Analytic principles %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Applicable analytic principles}
-%Applicable analytic principles - give a list of the basic ethical (and other) principles you'll rely on to come up with your analysis, include several explicit principles from the SE Code of Ethics, deontological principles, utilitarianism (rule-utilarianism) as well as others that will aid you. Indicate generally how they apply to your specific case. Cite any additional facts or principles you'll need. Cite to sources for the principles you list. \cite{handout}
+% Applicable analytic principles - give a list of the basic ethical (and other) principles you'll rely on to come up with your analysis, include several explicit principles from the SE Code of Ethics, deontological principles, utilitarianism (rule-utilarianism) as well as others that will aid you. Indicate generally how they apply to your specific case. Cite any additional facts or principles you'll need. Cite to sources for the principles you list. \cite{handout}
 
 \begin{itemize}
 \item Professionals should "disclose to appropriate persons or authorities any actual or potential danger...associated with software or related documents." \cite{secode}
@@ -106,40 +98,6 @@ It is not ethical to allow others to modify our devices without our consent:
 
 % Note that the SE Code should be the center of your ethical analysis (and remember that it includes both deontological and utilitarian [and more] principles you can utilize). Estimate where you'll end up for your answer (you can change your mind in the final paper!). Keep referencing sources for any additional facts, quotes, or other information you might use here. \cite{handout}
 
-\begin{enumerate}
-
-\item Remotely disabling or removing software/functionality on a device that one does not own is ethically sound, based on the premise of security, but is not the best way to handle it.
-
-   \begin{enumerate}
-   \item If used for the sake of security, the intent is one which is good-willed.
-   \item There is a tradeoff, however, in that there are other ways to have good intent, but not be invasive (invasion of privacy violates the SE Code). \cite{secode}
-   \item For example, the company could follow the mentality of virus scanning software, which simply informs the user of a problem and asks the user what to do about it, rather than assume that the user wants it gone.
-   \item The tradeoff is that the public gains more freedom with their devices, while the manufacturer and developers lose a little bit of control over the software that interacts with "their" hardware and software.
-   \end{enumerate}
-
-\item The ability to remotely disable software is easily abused and, as such, could be detrimental to the "public good."
-
-   \begin{enumerate}
-   \item If Google or Apple determines that a common program that enables a device to perform unadvertised functionality (Tethering, for example), those applications could be seen as "malicious" and "security threats" and, as such, be subject to deletion.
-   \item Once again, the tradeoff is between the freedom of the consumer to do what he wants with the device that he owns vs. the freedom of the provider to control their products.
-   \end{enumerate}
-
-\item It is ethical for companies to avoid deception in statements regarding their software, and hiding these "kill switches" in the depths of terms of service agreements is a shady practice. \cite{secode}
-
-   \begin{enumerate}
-   \item It is not obvious and clear when a person buys a phone or other device that Google, Apple, etc.\ have the ability to remotely disable applications.
-   \item In the case of Apple's iPhone, the terms of service do not even explicitly mention that Apple has this remote "kill switch" functionality. \cite{appleTOS}
-   \item In the case of Sony's Playstation 3, the company repeatedly said that it would continue supporting the "Other OS" feature. That they went back on their word is very deceptive. \cite{sonyLawsuit2}
-   \end{enumerate}
-
-\item The ability to remotely disable software can be considered dangerous in the case where a company such as Google or Apple is compromised and a malicious person gains the ability to remotely disable software on consumers' devices.
-
-   \begin{enumerate}
-   \item This becomes the responsibility of the engineer, who, at some point, must have revealed to other workers and the companies in question the dangers of the software and its capabilities (in this case, the ability to remotely disable functionality). \cite{secode}
-   \item In an admittedly rare case such as this, it is extraordinarily dangerous to have such functionality available, even if it was intended for ``good''.
-   \end{enumerate}
-
-\end{enumerate}
 
 % cite all the references you want in your annotated bibliography that you cite in the paper
 \nocite{texTemp}
