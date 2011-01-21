@@ -13,9 +13,8 @@
 \usepackage{geometry} % to change the page dimensions
 \geometry{letterpaper}
 
-
 \begin{document}
-\title{\vfill The Ethics of Information Distribution Systems} % \vfill gives us the black space at the top of the page
+\title{\vfill The Ethics of Information Distribution Systems Proposal} % \vfill gives us the black space at the top of the page
 \author{
 By Nathaniel Welch\vspace{10pt}\\
 CSC 300: Professional Responsibilities\vspace{10pt}\\
@@ -71,13 +70,14 @@ It is ethical to develop software to distribute information:
 \begin{itemize}
 % \item Since the passing of the Statue of Queen Anne, it is the content creators not the distributors that are punished for the appropriateness of their content (Citation...)
 % Something about BT being awesome
-\item ...
+\item ``If there is a bedrock principle underlying the First Amendment, it is that the government may not prohibit the expression of an idea simply because society finds the idea itself offensive or disagreeable.'' \cite[414]{1989texas}
+\item ``At the heart of the First Amendment is the recognition of the fundamental importance of the free flow of ideas and opinions on matters of public interest and concern.'' \cite[51]{1988hustler}
 \end{itemize}
 
 It is unethical to develop software to distribute information:
 \begin{itemize}
-\item According to the Software Engineering Code of Ethics, all professional developers are supposed to "work to develop software and related documents that respect the privacy of those who will be affected by that software." \cite{secode}
-\item "Publishers have a responsibility to the public" according to publisher Steven Schragls, and if your content is offensive it isn't helping the public. \cite[46]{hawker}
+\item According to the Software Engineering Code of Ethics, all professional developers are supposed to ``work to develop software and related documents that respect the privacy of those who will be affected by that software.'' \cite{secode}
+\item ``Publishers have a responsibility to the public'' according to publisher Steven Schragls, and if your content is offensive it isn't helping the public. \cite[46]{hawker}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,10 +87,10 @@ It is unethical to develop software to distribute information:
 % Applicable analytic principles - give a list of the basic ethical (and other) principles you'll rely on to come up with your analysis, include several explicit principles from the SE Code of Ethics, deontological principles, utilitarianism (rule-utilitarianism) as well as others that will aid you. Indicate generally how they apply to your specific case. Cite any additional facts or principles you'll need. Cite to sources for the principles you list. \cite{handout}
 
 \begin{itemize}
-\item Professionals should "Be accurate in stating the characteristics of software on which they work, avoiding not only false claims but also claims that might reasonably be supposed to be speculative, vacuous, deceptive, misleading, or doubtful." \cite{secode}
-\item People should act so that their actions are motivated by "good willed" intentions, according to Kant. \cite{kant}
-\item People should act to promote the greatest amount of "happiness" for the largest number people, according to Utilitarianism. \cite{util}
-\item The dissemination of information makes all individuals equal, which helps the poor, which Rawls' claims is necessary. \cite{rawls}
+\item Professionals should ``Be accurate in stating the characteristics of software on which they work, avoiding not only false claims but also claims that might reasonably be supposed to be speculative, vacuous, deceptive, misleading, or doubtful.'' \cite{secode}
+\item People should act so that their actions are motivated by ``good willed'' intentions, according to Kant. \cite{kant}
+\item People should act to promote the greatest amount of ``happiness'' for the largest number people, according to Utilitarianism. \cite{util}
+\item The dissemination of information makes all individuals equal, which provides the ``greatest benefit'' to the least advantaged members of society, which Rawls' claims is necessary. \cite{rawls}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,16 +99,37 @@ It is unethical to develop software to distribute information:
 \section{Abstract of Expected Analysis}
 % Give a short abstract of the basics you expect to analyze and present in your paper. Divide it into sections that make sense for your work.
 
-% One way would be to: a) start with deontological perspectives as a section where you analyze those arguments based on the inherent ethics of the act itself rather than the results or tradeoffs; then, b) use a utilitarian perspective and list the appropriate analyses of the tradeoffs and stakeholders to define the most desired results and how to get them. Be explicit about the tradeoffs (what value is balanced against what other value, which stakeholders win, which stakeholders lose...) What is the "utility" in "utilitarian" in your case - what value do you want to advance the most (derived from the general utilitarian "happiness")? How do you maximize (or optimize) it?
+% One way would be to: a) start with deontological perspectives as a section where you analyze those arguments based on the inherent ethics of the act itself rather than the results or trade-offs; then, b) use a utilitarian perspective and list the appropriate analyses of the trade-offs and stakeholders to define the most desired results and how to get them. Be explicit about the trade-offs (what value is balanced against what other value, which stakeholders win, which stakeholders lose...) What is the "utility" in "utilitarian" in your case - what value do you want to advance the most (derived from the general utilitarian "happiness")? How do you maximize (or optimize) it?
 
 % Note that the SE Code should be the center of your ethical analysis (and remember that it includes both deontological and utilitarian [and more] principles you can utilize). Estimate where you'll end up for your answer (you can change your mind in the final paper!). Keep referencing sources for any additional facts, quotes, or other information you might use here. \cite{handout}
 
+\begin{itemize}
+\item What is BitTorrent?
+\item Who does BitTorrent help and harm?
+\begin{itemize}
+   \item Initial argument for those who could not obtain information normally
+   \item Harms classic content distributors, those who wish to remove content (for any reason).
+   \item The benefits of having a system to distribute your information
+   \begin{itemize}
+      \item State Wikileaks and iFixit examples.
+      \item Argue that if information is made free once, it should be kept free and available.
+   \end{itemize}
+   \item Talk about MPAA and RIAA, not the legality of their complaints but the list how they think they have been wronged.
+\end{itemize}
 
+\item Compare those being helped and hurt. Talk about how Rawls believes that if there is an inequality, the poor should be the advantageous.
+
+\item The ethics of the creator
+\begin{itemize}
+   \item I am trying to find cases in other countries where freedom of speech is not the case that would attack this
+   \item Otherwise, cite a few cases on the First Amendment. 
+   \item Is code protected under freedom of speech?
+   \item ``Obey all laws governing their work, unless, in exceptional circumstances, such compliance is inconsistent with the public interest.'' \cite[6.06]{secode}
+   \item ``Identify, define and address ethical, economic, cultural, legal and environmental issues related to work projects.'' \cite[3.03]{secode}
+   \item Keep looking for an early spec of BitTorrent. Did Cohen know?
+\end{itemize}
+\end{itemize}
 % cite all the references you want in your annotated bibliography that you cite in the paper
-\nocite{texTemp}
-\nocite{BibTex}
-\nocite{BibMang}
-\nocite{bibStyle}
 \bibliographystyle{IEEEannot}
 \bibliography{proposal}
 \end{document}
