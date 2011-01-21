@@ -112,3 +112,29 @@ He had his coffee today, jumping right into stuff.
    * pseudo-random behavior
    * power and pervasiveness
  * TCAT System - Fly by wire
+
+## 1.21.11
+
+How to answer a turner exam question
+
+ 1. Read it over carefully.
+ 2. Choose separate parts that may be modularized (answered separately).
+   * Object Oriented exam answering.
+ 3. Use sub-headings to separate parts.
+ 4. When referring to an SE Code provision, utilize both the section number and quote.
+   * Narrow and simplify as much as you can to get Turner to believe.
+ 5. If you aren't answering a question, don't put it in your paper
+   * Fluff is bad.
+ 6. No citations means death
+   * "Not documenting means more maintenance" - proof? Citation, how do you know, why should I believe you?
+ 7. Never start a paragraph with your conclusion
+   * you'll be thinking that you're right
+   * start with question or fact.
+ 8. Always use short, simple sentences.
+   * less commas, less semi-colons
+   * Spelling + Grammar
+ 9. When you've completed your answer, review it! Did you really answer the question?
+
+ * Read Strunk & White
+
+
