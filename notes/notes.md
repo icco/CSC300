@@ -137,4 +137,19 @@ How to answer a turner exam question
 
  * Read Strunk & White
 
+## 1.24.11
 
+ * Be more skeptical, assume the user doesn't agree with you at all
+ * Be a journalist, not a Rush Limbaugh
+ * Choose exactly one of the provisions from SE-Code
+ * be narrow
+ * Truth tables? Do logical proofs?
+ * 2/3 paragraphs, 1 page.
+ * start paragraph w/ question or controversial fact.
+   * not conclusion.
+ * Dialectic - classic dialog and discussion
+   * http://en.wikipedia.org/wiki/Dialectic
+   * Thesis
+   * antithesis
+   * synthesis
+ * talk about letters of recommendation
