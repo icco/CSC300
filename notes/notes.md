@@ -153,3 +153,36 @@ How to answer a turner exam question
    * antithesis
    * synthesis
  * talk about letters of recommendation
+
+## 1.25.11
+
+-------
+
+## 1.28.11
+
+Talk by Jim "Cope" Coplien
+
+ * Form not structure, but rather the "essence of structure"
+ * Patterns
+ * Commonality / variability
+ * Programming languages have features which express semanitcs which help model building
+   * Logical | Structural
+   * "The interface is the program, the code is crap inbetween" 
+ * Ignore your customer, listen to your end user.
+ * Actual coding is only 5%
+ * Human minds see patterns
+ * Patterns can be:
+   * The same thing repeated
+   * recurring commonality
+   * recurring variability
+ * Programming?
+   * Model building
+   * Problem solving
+   * Programs don't solve problems, they help you solve problems, they are "frameworks"
+ * 1967 was when we destroyed the ability to read our source code (aka Fuck SmallTalk/OOP)
+ * Domain specific languages take 5-10 years
+ * Good languages take time 
+   * A compiler/translator is the trivial part
+   * Learning curve rises with number of languages (huh?)
+      * Oh in a company, not for a person
+
