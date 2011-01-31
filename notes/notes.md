@@ -165,7 +165,7 @@ Talk by Jim "Cope" Coplien
  * Form not structure, but rather the "essence of structure"
  * Patterns
  * Commonality / variability
- * Programming languages have features which express semanitcs which help model building
+ * Programming languages have features which express semantics which help model building
    * Logical | Structural
    * "The interface is the program, the code is crap inbetween" 
  * Ignore your customer, listen to your end user.
@@ -186,3 +186,27 @@ Talk by Jim "Cope" Coplien
    * Learning curve rises with number of languages (huh?)
       * Oh in a company, not for a person
 
+## 1.31.11
+
+ * Objectivity -> Just in time -> agile?
+   * Is agile really about caring people?
+      * Extreme programming says 40 hours a week max. Period.
+ * Things to know
+   * trade-offs
+   * risks
+   * benefits
+   * cost-benefit analysis
+   * negligence
+ * easy, fast, cheap. Choose two.
+ * Deontology vs. Utilitarianism.
+   * Deontology - not about consequences. Don't lie.
+   * Utilitarianism - utility, consequences.
+ * What is a corporation viz-a-viz Ethics?
+   * Supreme court says they are a person.
+   * purpose of a corporation: distribute liability, no personal liability.
+      * Make money for shareholders
+ * Press isn't as interested in showing up companies?
+ * fault vs. cause
+   * Afghanistan war deaths vs. Monthly highway deaths 
+ * just because you don't have a contract, doesn't mean you don't have to pay damages
+   * throw a chair in a classroom, hit someone, it's your fault even if it was an accident.
