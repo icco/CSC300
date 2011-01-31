@@ -210,3 +210,5 @@ Talk by Jim "Cope" Coplien
    * Afghanistan war deaths vs. Monthly highway deaths 
  * just because you don't have a contract, doesn't mean you don't have to pay damages
    * throw a chair in a classroom, hit someone, it's your fault even if it was an accident.
+   * Orthogonal - completely different angle
+   * social obligations completely different to contracts.
