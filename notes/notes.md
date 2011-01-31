@@ -212,3 +212,24 @@ Talk by Jim "Cope" Coplien
    * throw a chair in a classroom, hit someone, it's your fault even if it was an accident.
    * Orthogonal - completely different angle
    * social obligations completely different to contracts.
+
+### Software is Different
+
+ * Boris Beizer
+ * Software isn't constrained by physical laws
+ * Decomposition Principle
+   * no mathematical principle
+   * true divide and conquer doesn't work
+ * perceived quality
+ * priorities
+
+   1. write predictable software
+   2. Write testable software
+   3. write modular code
+   4. make a working product
+   5. decouple features
+   6. make sure software has all essential features
+
+## 2.2.11
+
+
