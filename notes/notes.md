@@ -232,4 +232,61 @@ Talk by Jim "Cope" Coplien
 
 ## 2.2.11
 
+ * Talking about licenses, you buy permission to listen to their music
+   * "Engineering and social notions of defectiveness and responsibility are challenged by the unique nature of the software product."
+ * We can rely on things, so we have time to work on other stuff
+   * Software is too unpredictable for our lives (sys-ops shouldn't exist)
+
+### Legal Background
+
+ * Terminology
+   * design - intention or plan for a product
+   * safety-critical - capable of causing or contributing to personal injury (or property damage)
+   * software - non-trivial, safety-critical, mass marketed
+   * specifications - requirements, design
+   * specification sufficiency - ability of specifications to contain all intentional decisions for code construction
+   * product - artifact with dangerous potential sold on mass market.
+ *  Innovation by design
+   * define: innovate, design
+   * Homo Faber: Man, the maker
+      * design projects from the known into the unknown
+      * promise and optimism about benefits to humans
+   * new artifacts alter arrays of potentialities
+      * inevitable social costs in new risks
+      * someone has to pay those costs (who pays has consequences in the market)
+   * the web is a distinct change in human thought, and is constantly changing.
+      * Easier to innovate, design
+ * Social Progress
+   * Social Desire for safety and predictability
+      * conflicts with free technical innovation
+   * social desire for technical innovation
+      * conflicts with safety and predictability
+         * "I want new medicine even if it kills a few people first" -- Dr. Clark Savage Turner
+   * society (in general) protects and advances its own welfare.
+      * one way: social notions of responsibility in tort
+      * tort law: balance risks and benefits of innovative tech
+      * common law goal is to optimize social welfare
+ * TORT LAW
+   * Social obligations orthogonal to contract
+      * common, "judge made" law
+         * dynamic and self correcting
+         * requires deterministic algorithm that halts
+            * judges + juries must come to a solution.
+   * Purpose: allocate costs of technical progress
+      * decides who pays for the "inevitable social costs in new risks"
+      * either
+         * sacrifice victim's interests
+         * industry "pays its way"
+ * Tort law meets risk artifacts of design
+   * a lawsuit is just a bug report
+   * "products" - potentially dangerous artifacts
+      * must involve personally injury
+      * inapplicable to pure "services" (malpractice)
+   * general rule of products liability in tort:
+
+ > "One ... who sells .. a defective product is subject to liability for harm ... caused by the defect." [Res99]
+
+ * Defect Classification (slides need to be redone)
+   * defect in manufacture
+   * defect in design
 
