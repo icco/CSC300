@@ -1,11 +1,9 @@
+% Term Paper - Nathaniel Welch
 % CSC 300: Professional Responsibilities
 % Dr. Clark Turner
 
-% Two Column Format
+% One Column Format
 \documentclass[11pt]{article}
-%this allows us to specify sections to be single or multi column so that things
-% like title page and table of contents are single column
-\usepackage{multicol}
 
 \usepackage{setspace}
 \usepackage{url}
@@ -15,28 +13,28 @@
 \geometry{letterpaper}
 
 \begin{document}
-
-\title{\vfill Term Paper Template} %\vfill gives us the black space at the top of the page
+\title{\vfill ``The Ethics of Information Distribution Systems'' Proposal} % \vfill gives us the black space at the top of the page
 \author{
-By Nathaniel Welch\vspace{10pt} \\
-CSC 300: Professional Responsibilities\vspace{10pt} \\
-Dr. Clark Turner\vspace{10pt} \\
+By Nathaniel Welch\vspace{10pt}\\
+CSC 300: Professional Responsibilities\vspace{10pt}\\
+Dr. Clark Turner\vspace{10pt}\\
 }
-%\date{October 22, 2010} %Or use \Today for today's Date
 \date{\today}
 
 \maketitle
 
-\vfill  %in combinaion with \newpage this forces the abstract to the bottom of the page
+\vfill % in combination with \newpage this forces the abstract to the bottom of the page
 \begin{abstract}
-5\%  One or two sentences of context about your issue. Provide your focus question. Mention one or two relevant arguments.  Briefly explain your conclusion and why it is proper ethically. Should be no more than one paragraph (100 words max). \cite{handout}
+% One or two paragraphs to describe in very general terms the motivating facts, the question asked, one or two arguments and your ultimate answer and the basic principles upon which it rests. This would be the 30 second summary you might give your mother or friend. \cite{handout}
 
-   Blarghity blargh blargh. \cite{TOC}
+In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. Wikileaks uses BitTorrent, a protocol written by Bram Cohen in 2001, to make sure their information is distributed internationally.
+
+On the 17th of April, 2009, Peter Sunde, Fredrik Neij, Gottfrid Svartholm and Carl Lundström of The Pirate Bay were all found guilty ``for promoting the copyright infringement of others'' and sentenced to serve one year in prison and pay a fine of \$3.5 million. \cite{tpbverdict} Their website, the Pirate Bay, uses software they wrote to collect ``torrent files'' for a wide variety of content.
+
+Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTorrent protocol, built BitTorrent client software and promoted individuals and businesses to use their system. Is the building of BitTorrent (and other information distribution systems), an ethical pursuit?
 \end{abstract}
-
-\thispagestyle{empty} %remove page number from title page
+\thispagestyle{empty} % remove page number from title page, but still keep it as pg #1
 \newpage
-
 
 %Create a table of contents with all headings of level 3 and above.
 %http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Table_of_contents has
@@ -46,36 +44,46 @@ Dr. Clark Turner\vspace{10pt} \\
 
 \newpage
 
-%end the 1 column format
-
-
-%start 2 column format
-\begin{multicols}{2}
-%Start numbering first page of content as page 1
-\setcounter{page}{1}
 %%%%%%%%%%%%%%%%%%%%
-%%% Known Facts  %%%
+%%% Known Facts %%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Facts}
-
-\begin{itemize}
-
-\item General context of the issue
-\item Only facts that clearly point to the issue/question at hand (you may add additional facts as needed in your analysis that aren't in your facts section)
-\item The facts section should end up leading the reader to the question you are about to ask them (a controversy or a case ending poorly is a great way to do this).
-\item Should not indicate anything about your answer to the question or hint at any particular conclusion.
-\cite{handout}
-\end{itemize}
+% Known facts that are not disputed that lead to your question. Do not judge these facts or make anything like an argument for an answer in here. Just note the facts that give us the general background and end them with the facts leading to the controversy you are interested in. The reader should naturally be asking the question you'll be asking by that point in your paper. In general, attach your facts to a specific case, the more specific and detailed the facts, the better for your analysis. Cite all facts to their sources. \cite{handout}
+\begin{enumerate}
+\item BitTorrent Inc. is a company founded by Brian Cohen and maintains the BitTorrent Protocol and an associated client. \cite{btabout}
+\item The BitTorrent Protocol was initially created to share files and distribute information. \cite{btabout}
+\item In a few countries, people have been prosecuted for using BitTorrent for sharing illegal files and promoting copyright infringment. \cite{tpbverdict}
+\item In the United States of America, copyright holders have the exclusive right to reproduce their copyrighted work. \cite{t17c1s106}
+\item uTorrent's EULA does not restrict what content their users can distribute. \cite{utorrentEula}
+\item BitTorrent itself does not have a EULA. \cite{utorrentEula}
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Research Question %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Question}
-One sentence (one question, not compound). Should be focused on a particular case. Should have a determinable yes or no answer that you will draw based on your research.  Should be followed (separately) by a paragraph explaining the importance of this question and its relevance to software engineers (why should we care?). \cite{handout}
+% Your research question - this is the ethical question you are interested in answering. It should be one simple sentence and lead to a yes/no answer. It needs to be very narrowly focused, specific, and not abstract at all. It's best to question a detailed case in the general area of your interest. Open ended questions are very hard to answer. \cite{handout}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%
+Is the building and maintenance of BitTorrent (and other information distribution systems), an ethical pursuit?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Extant Arguments from External Sources %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Extant arguments}
+% Extant arguments - this is where you gather the arguments made by others interested in the same question. No judgments, just repeat their arguments for the answer in the best possible light from the arguer's perspective. Cover both sides of your question (the "yes" side and the "no" side) to get a complete picture of how others are thinking about it. Do not include any general ethical principles in here unless they are explicitly written up in the arguments. Cite all arguments to their sources. \cite{handout}
+
+It is ethical to develop software to distribute information:
+\begin{itemize}
+% \item Since the passing of the Statue of Queen Anne, it is the content creators not the distributors that are punished for the appropriateness of their content (Citation...)
+\item ``If there is a bedrock principle underlying the First Amendment, it is that the government may not prohibit the expression of an idea simply because society finds the idea itself offensive or disagreeable.'' \cite[414]{1989texas}
+\item ``At the heart of the First Amendment is the recognition of the fundamental importance of the free flow of ideas and opinions on matters of public interest and concern.'' \cite[51]{1988hustler}
+\end{itemize}
+It is unethical to develop software to distribute information:
+\begin{itemize}
+\item According to the Software Engineering Code of Ethics, all professional developers are supposed to ``work to develop software and related documents that respect the privacy of those who will be affected by that software.'' \cite[3.12]{secode}
+\item ``Publishers have a responsibility to the public'' according to publisher Steven Schragls, and if your content is offensive it isn't helping the public. \cite[46]{hawker}
+\end{itemize}
 
 \section{Arguments For}
 \subsection{Arg 1}
@@ -88,16 +96,12 @@ The first argument against your topic.
 \subsection{Arg 2}
 The second argument against your topic...
 
-%the * causes a section with no numbering also doesn't appear in the table of contents
-\subsubsection*{Requirements for the Arguments section(s) (from the handout)}
-Summarize the main arguments others have made about the answers to your focus question. Provide the state of research on your focus question. Must be referenced appropriately.  All statements must be a summary of the source's arguments, devoid of your opinions or biases on the issue. Must (separately) cover arguments on both sides of your issue - that is, those that answer your focus question affirmatively and those that answer negatively. \cite{handout}
-
 %%%%%%%%%%%%%%%%
 %%% Analysis %%%
 %%%%%%%%%%%%%%%%
 \section{Analysis}
 \begin{itemize}
-   \item Should start with a paragraph showing why the SE Code applies to your focusquestion.
+   \item Should start with a paragraph showing why the SE Code applies to your focus question.
    \item Sub-headings to delineate your lines of reasoning are required.
    \item All arguments must be thoroughly supported by reason and logic.
    \item All claims must be supported by reputable primary sources and formal data.
@@ -132,10 +136,6 @@ Remember to weave the class papers and other ethical systems arguments in with t
 %%%%%%%%%%%%%%%%
 \section{Conclusion}
 The conclusion is a summary of your entire analysis. It should reiterate the answer your audience has been forming while reading your analysis. New information should never be introduced in your conclusion. \cite{texTemp}
-
-%end the two column format
-\end{multicols}
-\newpage
 
 %cite all the references from the bibtex you haven't explicitly cited
 \nocite{*}
