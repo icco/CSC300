@@ -91,7 +91,7 @@
 
 % #0 turns off the display of the number for articles.
 % #1 enables
-FUNCTION {default.is.use.number.for.article} { #1 }
+FUNCTION {default.is.use.number.for.article} { #0 }
 
 
 % #0 turns off the display of the paper and type fields in @inproceedings.
@@ -150,7 +150,7 @@ FUNCTION {default.name.latex.cmd}{ "" }
 % #0 turns off the terminal startup banner/completed message so as to
 % operate more quietly.
 % #1 enables
-FUNCTION {is.print.banners.to.terminal} { #0 }
+FUNCTION {is.print.banners.to.terminal} { #1 }
 
 
 
