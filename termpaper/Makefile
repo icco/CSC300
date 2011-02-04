@@ -51,9 +51,9 @@ pdf: $(NAME).pdf
 	$(BIBTEX) $(NAME)
 	@echo "	Running LaTeX until complete"
 	if $(LATEX) $(TEXFILES) | tee /dev/tty | fgrep -is rerun; then \
-		@echo "	--- Rerunning LaTeX";				\
+		echo "	--- Rerunning LaTeX";				\
 		while $(LATEX) $(TEXFILES) | fgrep -is rerun; do	\
-			@echo "  Re-Rerunning LaTeX";			\
+			echo "  Re-Rerunning LaTeX";			\
 		done;							\
 	fi
 

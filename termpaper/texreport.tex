@@ -13,7 +13,7 @@
 \geometry{letterpaper}
 
 \begin{document}
-\title{\vfill ``The Ethics of Information Distribution Systems'' Proposal} % \vfill gives us the black space at the top of the page
+\title{\vfill The Ethics of Information Distribution Systems} % \vfill gives us the black space at the top of the page
 \author{
 By Nathaniel Welch\vspace{10pt}\\
 CSC 300: Professional Responsibilities\vspace{10pt}\\
@@ -23,25 +23,19 @@ Dr. Clark Turner\vspace{10pt}\\
 
 \maketitle
 
-\vfill % in combination with \newpage this forces the abstract to the bottom of the page
+\vfill
 \begin{abstract}
-% One or two paragraphs to describe in very general terms the motivating facts, the question asked, one or two arguments and your ultimate answer and the basic principles upon which it rests. This would be the 30 second summary you might give your mother or friend. \cite{handout}
-
 In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. Wikileaks uses BitTorrent, a protocol written by Bram Cohen in 2001, to make sure their information is distributed internationally.
 
 On the 17th of April, 2009, Peter Sunde, Fredrik Neij, Gottfrid Svartholm and Carl Lundström of The Pirate Bay were all found guilty ``for promoting the copyright infringement of others'' and sentenced to serve one year in prison and pay a fine of \$3.5 million. \cite{tpbverdict} Their website, the Pirate Bay, uses software they wrote to collect ``torrent files'' for a wide variety of content.
 
 Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTorrent protocol, built BitTorrent client software and promoted individuals and businesses to use their system. Is the building of BitTorrent (and other information distribution systems), an ethical pursuit?
 \end{abstract}
-\thispagestyle{empty} % remove page number from title page, but still keep it as pg #1
+
+\thispagestyle{empty}
 \newpage
-
-%Create a table of contents with all headings of level 3 and above.
-%http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Table_of_contents has
-%info on customizing the table of contents
-\thispagestyle{empty}  %Remove page number from TOC
+\thispagestyle{empty}
 \tableofcontents
-
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%
@@ -73,54 +67,36 @@ Is the building and maintenance of BitTorrent (and other information distributio
 \section{Extant arguments}
 % Extant arguments - this is where you gather the arguments made by others interested in the same question. No judgments, just repeat their arguments for the answer in the best possible light from the arguer's perspective. Cover both sides of your question (the "yes" side and the "no" side) to get a complete picture of how others are thinking about it. Do not include any general ethical principles in here unless they are explicitly written up in the arguments. Cite all arguments to their sources. \cite{handout}
 
-It is ethical to develop software to distribute information:
-\begin{itemize}
-% \item Since the passing of the Statue of Queen Anne, it is the content creators not the distributors that are punished for the appropriateness of their content (Citation...)
-\item ``If there is a bedrock principle underlying the First Amendment, it is that the government may not prohibit the expression of an idea simply because society finds the idea itself offensive or disagreeable.'' \cite[414]{1989texas}
-\item ``At the heart of the First Amendment is the recognition of the fundamental importance of the free flow of ideas and opinions on matters of public interest and concern.'' \cite[51]{1988hustler}
-\end{itemize}
-It is unethical to develop software to distribute information:
-\begin{itemize}
-\item According to the Software Engineering Code of Ethics, all professional developers are supposed to ``work to develop software and related documents that respect the privacy of those who will be affected by that software.'' \cite[3.12]{secode}
-\item ``Publishers have a responsibility to the public'' according to publisher Steven Schragls, and if your content is offensive it isn't helping the public. \cite[46]{hawker}
-\end{itemize}
+\subsection{Arguments For}
+It is ethical to develop software to distribute information.
 
-\section{Arguments For}
-\subsection{Arg 1}
-The first argument for your topic
-\subsection{Arg 2}
-The second argument for your topic...
-\section{Arguments Against}
-\subsection{Arg 1}
-The first argument against your topic.
-\subsection{Arg 2}
-The second argument against your topic...
+\subsubsection{Argument One}
+% \item Since the passing of the Statue of Queen Anne, it is the content creators not the distributors that are punished for the appropriateness of their content (Citation...)
+``If there is a bedrock principle underlying the First Amendment, it is that the government may not prohibit the expression of an idea simply because society finds the idea itself offensive or disagreeable.'' \cite[414]{1989texas}
+
+\subsubsection{Argument Two}
+``At the heart of the First Amendment is the recognition of the fundamental importance of the free flow of ideas and opinions on matters of public interest and concern.'' \cite[51]{1988hustler}
+
+\subsection{Arguments Against}
+It is unethical to develop software to distribute information:
+
+\subsubsection{Argument One }
+According to the Software Engineering Code of Ethics, all professional developers are supposed to ``work to develop software and related documents that respect the privacy of those who will be affected by that software.'' \cite[3.12]{secode}
+
+\subsubsection{Argument Two}
+``Publishers have a responsibility to the public'' according to publisher Steven Schragls, and if your content is offensive it isn't helping the public. \cite[46]{hawker}
 
 %%%%%%%%%%%%%%%%
 %%% Analysis %%%
 %%%%%%%%%%%%%%%%
 \section{Analysis}
-\begin{itemize}
-   \item Should start with a paragraph showing why the SE Code applies to your focus question.
-   \item Sub-headings to delineate your lines of reasoning are required.
-   \item All arguments must be thoroughly supported by reason and logic.
-   \item All claims must be supported by reputable primary sources and formal data.
-   \item SE Code must be central to the argumentation
-   \begin{itemize}
-      \item You should have 2-4 distinct sections of the SE code utilized in your analysis
-      \begin{itemize}
-         \item If section 1 is central to your argument, it is only one of the code sections covered. Do not rely solely on section one. Ex: 1.01-1.04 will not suffice for all of your SE Code based arguments and citations.
-         \item If discussion about Òpublic goodÓ is used, there must be data to support it. Simply writing Òit benefits the general public because it would make many people happyÓ is insufficient.
-      \end{itemize}
-   \end{itemize}
-   \item Utilitarian and deontological analysis must be present but not be separate sections
-   \item Class reading must be referenced as appropriate (at least one paper must be used as the basis of one of the arguments).
-   \item There should be a clear cohesiveness to the analysis such that each argument logically flows into the next and gently directs the reader toward your conclusion while implicitly providing answers to any doubts they may have through logic and data.
-   \item Opinions > dev/null. \cite{handout}
-\end{itemize}
 
-Look at Jason Anderson's how to write a term paper (currently linked as the paper template) for information on how to write this section.  An example of possible sections follows
 \subsection{Why the SE Code Applies}
+
+Section 1.03 says that professional Software Engineers should ``approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good''  \cite[1.03]{secode}. This seems like a reasonable request. Make sure all software that passes your desk has an ultimate effect of public good. But what is ``Public Good''? According to Dictionary.com, public good is ``a good or service that is provided without profit for society collectively'' \cite{pubgooddef}. Is BitTorrent an application that contributes to the public good?
+
+Section 6.02 of the software engineering code says that professional Software Engineers should ``promote public knowledge of software engineering'' \cite[6.02]{secode}. The whole concept of of information distribution systems are to promote the dissemination of information and increasing the public knowledge. If a piece of software doesn't care about what knowledge it is promoting, is it still ethical?
+
 \subsection{Argument 1}
 \subsubsection{Code principle 1 that applies}
 \subsubsection{Code principle 2 that applies}
@@ -128,20 +104,13 @@ Look at Jason Anderson's how to write a term paper (currently linked as the pape
 \subsubsection{Code principle 1 that applies}
 \subsubsection{Code principle 2 that applies}
 
-\subsubsection*{}
-Remember to weave the class papers and other ethical systems arguments in with the se code arguments they shouldn't be separate sections.
-
 %%%%%%%%%%%%%%%%
 %%% Conclusion %%%
 %%%%%%%%%%%%%%%%
 \section{Conclusion}
-The conclusion is a summary of your entire analysis. It should reiterate the answer your audience has been forming while reading your analysis. New information should never be introduced in your conclusion. \cite{texTemp}
+Yes. Creating software to distribute information, no matter the information, is ethical.
 
-%cite all the references from the bibtex you haven't explicitly cited
-\nocite{*}
-
+\newpage
 \bibliographystyle{IEEEannot}
-
 \bibliography{texreport}
-
 \end{document}
