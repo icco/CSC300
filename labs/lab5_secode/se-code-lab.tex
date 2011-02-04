@@ -11,16 +11,6 @@
 % If you want to generate a toc for each chapter (use with book)
 \usepackage{minitoc}
 
-% This is now the recommended way for checking for PDFLaTeX:
-\usepackage{ifpdf}
-
-\ifpdf
-\usepackage[pdftex]{graphicx}
-\else
-\usepackage{graphicx}
-\fi
-
-
 \title{SE Code Lab}
 \author{Nathaniel Welch}
 
@@ -28,19 +18,12 @@
 
 \begin{document}
 
-\ifpdf
-\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
-\else
-\DeclareGraphicsExtensions{.eps, .jpg}
-\fi
-
 \maketitle
 
-\section{Section 3.09}
+\section{Section 1.03}
 
 \textbf{Original SE Code Tenet:}
-2.09. Promote no \underline{interest adverse} to their \underline{employer or client}, unless a \underline{higher ethical concern} is
-being compromised
+1.03. Approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good.
 \newline
 
 \begin{tabular}{|p{100pt}|p{100pt}|p{220pt}|}
@@ -56,8 +39,7 @@ higher ethical concern & protecting human rights online & Human rights on the in
 \end{tabular}\\
 \newline\\
 \textbf{Domain-Specific SE Code Transformation:}
-Google should not promote \underline{uncensored search} in \underline{China}, unless \underline{protecting human rights online} is
-being compromised.
+BitTorrent as a technology promotes the public good.
 
 \bibliographystyle{IEEEannot}
 \bibliography{se-code-lab}
