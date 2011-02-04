@@ -29,7 +29,10 @@ PS        = dvips
 PSFLAGS   = -f -t letter -Ppdf
 
 # Begin target definitions
-all: ps pdf smallclean
+all: ps pdf smallclean wordcount
+
+wordcount: *.tex
+	@perl ../texcount/texcount.pl *.tex
 
 ps: $(NAME).ps
 
