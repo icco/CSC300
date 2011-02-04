@@ -1,0 +1,82 @@
+%
+%  Example SE Code Lab
+%
+%  Created by Nicolas Artman on 2011-01-30.
+%  Licensed Under the Creative Commons Noncommercial Attribution Sharealike License.
+% 
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+
+
+\title{SE Code Lab}
+\author{Joe Bloggs}
+
+\date{2011-01-30}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+% ==============================
+% = Your Lab Content Goes Here =
+% ==============================
+
+
+While the following is not perfect (it's an adaptation of an old SE Code Response that I tweaked for this quarter's spec), it should give a rough outline of how to format your SE Code Lab and what to include \textbf{at minimum}. It also includes table code that can be easily adapted to suit your needs if you're doing the lab in latex (which is recommended for practice).
+
+You should probably add a bibliography as well (it is omitted here simply because this is a quick example).
+
+\section{Section 3.09}
+
+\textbf{Original SE Code Tenet:}
+2.09. Promote no \underline{interest adverse} to their \underline{employer or client}, unless a \underline{higher ethical concern} is
+being compromised
+\newline
+
+\begin{tabular}{|p{100pt}|p{100pt}|p{220pt}|}
+\hline
+SE Code & Argument & Reason\\
+\hline
+interest adverse & uncensored search & China's government requires searches in their country are censored\\
+\hline
+employer or client & China & In China, the Government controls most telecommunications, so they are the closest approximation to Google's clients in this case\\
+\hline
+higher ethical concern & protecting human rights online & Human rights on the internet are a high ethical concern because violating them would violate many other code tenets such as 1.02/1.03 and the Preamble. Rawlsian justice and deontology also consider human rights an important ethical concern.\\
+\hline
+\end{tabular}\\
+\newline\\
+\textbf{Domain-Specific SE Code Transformation:}
+Google should not promote \underline{uncensored search} in \underline{China}, unless \underline{protecting human rights online} is
+being compromised.
+
+\end{document}
