@@ -290,3 +290,22 @@ Talk by Jim "Cope" Coplien
    * defect in manufacture
    * defect in design
 
+## 2.04.11
+
+ * descriptive - science, the "state of the world. facts.
+   * what is
+   * abstraction 
+      * throw away everything that doesn't apply to the domain.
+      * not sure about this definition...
+ * normative - what aught to be
+   * requirements
+ * defect by manufacture
+   * if product departs from intended design
+   * bring in some experts, they say if you actually implemented the spec
+ * defect by design
+   * if design safety is not socially defensable
+   * Did you do a good job at the time given the constraints.
+   * bring in experts, argue if your initial spec was good.
+ * we don't have time to know everything, (not my responsibility to know the metal fatigue of my lawn mower).
+
+
