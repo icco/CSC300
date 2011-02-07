@@ -307,5 +307,3 @@ Talk by Jim "Cope" Coplien
    * Did you do a good job at the time given the constraints.
    * bring in experts, argue if your initial spec was good.
  * we don't have time to know everything, (not my responsibility to know the metal fatigue of my lawn mower).
-
-
