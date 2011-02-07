@@ -167,7 +167,7 @@ Talk by Jim "Cope" Coplien
  * Commonality / variability
  * Programming languages have features which express semantics which help model building
    * Logical | Structural
-   * "The interface is the program, the code is crap inbetween" 
+   * "The interface is the program, the code is crap inbetween"
  * Ignore your customer, listen to your end user.
  * Actual coding is only 5%
  * Human minds see patterns
@@ -181,7 +181,7 @@ Talk by Jim "Cope" Coplien
    * Programs don't solve problems, they help you solve problems, they are "frameworks"
  * 1967 was when we destroyed the ability to read our source code (aka Fuck SmallTalk/OOP)
  * Domain specific languages take 5-10 years
- * Good languages take time 
+ * Good languages take time
    * A compiler/translator is the trivial part
    * Learning curve rises with number of languages (huh?)
       * Oh in a company, not for a person
@@ -207,7 +207,7 @@ Talk by Jim "Cope" Coplien
       * Make money for shareholders
  * Press isn't as interested in showing up companies?
  * fault vs. cause
-   * Afghanistan war deaths vs. Monthly highway deaths 
+   * Afghanistan war deaths vs. Monthly highway deaths
  * just because you don't have a contract, doesn't mean you don't have to pay damages
    * throw a chair in a classroom, hit someone, it's your fault even if it was an accident.
    * Orthogonal - completely different angle
@@ -294,7 +294,7 @@ Talk by Jim "Cope" Coplien
 
  * descriptive - science, the "state of the world. facts.
    * what is
-   * abstraction 
+   * abstraction
       * throw away everything that doesn't apply to the domain.
       * not sure about this definition...
  * normative - what aught to be
@@ -307,3 +307,40 @@ Talk by Jim "Cope" Coplien
    * Did you do a good job at the time given the constraints.
    * bring in experts, argue if your initial spec was good.
  * we don't have time to know everything, (not my responsibility to know the metal fatigue of my lawn mower).
+
+## 2.07.11
+
+ * Talk is 10 minutes (10 slides) - go narrow
+ * ask questions
+
+Back to slides.
+
+ * Absolute freedom - Perfect Safety
+    * two ends of the spectrum in terms of choices for the system
+ * Insurance rules the world.
+ * you need design intention
+    * even if there is no spec, you need intention
+ * if the spec is empty, did the code meet the spec?
+    * of course, but epic fail
+    * but can we say that the spec was in their mind?
+ * If you don't think about the spec, you will paying for the damages.
+ * Legal Techniques
+   * copare to design spec
+   * "deviation for the norm" test
+      * independent of designer's specifications
+ * Software products
+   * Innovative artifacts present new risks
+      * used in avionics, nuclear, medical
+   * no legal precedent yet, but software will soon face a products' suit
+      * software considered a product
+      * disclaimers become effective.
+ * The constitution only describes what the government can and can't do.
+   * NDAs for example are legal
+   * I wish I wrote my paper on this.
+ * Turner's Hypothesis
+   * Rational classification of code defects by "stage of production" analogy:
+      * software design - design intention
+      * software code - product construction
+   * question: can software engineers rationally identify the class of arbitrary code flaws?
+      * NO. (Turner's Ph.D. Thesis.)
+ * Software is one of the few things that you can build and copy identically.
