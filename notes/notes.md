@@ -310,8 +310,16 @@ Talk by Jim "Cope" Coplien
 
 ## 2.07.11
 
- * Talk is 10 minutes (10 slides) - go narrow
- * ask questions
+ * giving paper presentation
+    * Talk is 10 minutes (10 slides) - go narrow
+    * Do slides organize the talk and add to the understanding?
+    * Look at people.
+    * facts are unbiased
+    * narrow focussed issue
+    * cover alternative arguments
+    * use of ethical principles to come to a conclusion
+    * If you fail presentation, you fail the class.
+    * slides ahead of time (two days before hand).
 
 Back to slides.
 
@@ -344,3 +352,4 @@ Back to slides.
    * question: can software engineers rationally identify the class of arbitrary code flaws?
       * NO. (Turner's Ph.D. Thesis.)
  * Software is one of the few things that you can build and copy identically.
+
