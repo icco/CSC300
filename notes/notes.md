@@ -353,3 +353,24 @@ Back to slides.
       * NO. (Turner's Ph.D. Thesis.)
  * Software is one of the few things that you can build and copy identically.
 
+## 2.09.11
+
+ * Legal research is divided
+   * Code is just a refinement of the design.
+   * Coding mistake as a manufacturing defect.
+ * Turner's Definition of Software: "The static description of a dynamic process to be instantiated on a machine."
+ * Overview of Argument
+   * code construction issues
+   * defects of each class exist in code
+   * extent tests fail to distinguish rationally
+   * difficulty is essential, not accidental
+ * One product built and copied identically
+ * Inevitable intertwining
+   * Code has design decisions.
+   * Pressure on coders to deliver working code.
+ * Spiral model
+ * "The way I want to change the world is expressed in my source code." - Clark S. Turner.
+ * Where is "design intention" for code?
+   - objective: specifications
+   - subjective: coder's mind
+
