@@ -374,3 +374,41 @@ Back to slides.
    - objective: specifications
    - subjective: coder's mind
 
+For talk
+
+ * Only focus on two SE code points
+ * Stuff to think about
+    * utilitarianism?
+    * deontological?
+    * Rwalsian?
+    * Objectivism?
+
+ * Nick says:
+   * Less work
+   * Logos, Pathos, Ethos
+      * Logos: the idea of logic
+      * Pathos: appeal to emotion
+      * Ethos: appeal to authority, I know wtf I am talking about.
+   * Presentation should promote what you are saying
+   * shortness.
+   * no more than 5 bullet points.
+   * use common language instead of technical terms when possible.
+   * outline beforehand when possible.
+   * DON'T GO OVERTIME
+   * be prepared for questions
+   * make sure these are covered
+      * why did you choose the top?
+      * why should we care?
+      * what is its place in ethics?
+      * background of topic?
+   * Slides we must have
+      * Intro 1 slide
+      * Facts 1 slide
+      * Focus Question 1
+      * Why Care? 1
+      * Extant Arguments. 2 slides (pro/con)
+      * Analysis 1-3 slides
+      * Conclusion 1
+      * References
+
+
