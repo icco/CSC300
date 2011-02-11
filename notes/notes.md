@@ -411,4 +411,23 @@ For talk
       * Conclusion 1
       * References
 
+## 2.11.11
+
+ * It won't work.
+   * spec insufficiency not new
+   * generic manufacturing defects are new (hungover programmer vs. assembly line worker).
+   * Better software tools and methods to satisfice.
+ * software engineering progress
+   * research progress
+      * design standards
+      * formal specifications [fisher]
+   * progress is helpful, but solves a different problem?
+   * excel guys put a flight sim inside. Couldn't do that with hardware.
+ * depending on the use case specs are read and interpreted differently.
+ * No way to determine design spec from code spec.
+ * Conclusion
+    * software will face products liability law
+    * Courts must classify defects
+    * rational classification not possible.
+
 
