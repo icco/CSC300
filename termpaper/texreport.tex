@@ -5,7 +5,11 @@
 % One Column Format
 \documentclass[11pt]{article}
 
+\usepackage{float}
+\usepackage{graphicx}
 \usepackage{setspace}
+\usepackage{setspace}
+\usepackage{ulem}
 \usepackage{url}
 
 %%% PAGE DIMENSIONS
@@ -24,12 +28,13 @@ Dr. Clark Turner\vspace{10pt}\\
 \maketitle
 
 \vfill
+\doublespacing
 \begin{abstract}
 In November 2010, Wikileaks.org began slowly releasing 251,287 diplomatic cables from the United States of America. \cite{cablegate} Since then some companies and governments have attacked the organization because they are sharing this information. Wikileaks uses BitTorrent, a protocol written by Bram Cohen in 2001, to make sure their information is distributed redundantly internationally.
 
 On the 17th of April, 2009, Peter Sunde, Fredrik Neij, Gottfrid Svartholm and Carl Lundström of The Pirate Bay were all found guilty ``for promoting the copyright infringement of others'' and sentenced to serve one year in prison and pay a fine of \$3.5 million. \cite{tpbverdict} Their website, the Pirate Bay, uses software they wrote to collect ``torrent files'' for a wide variety of content.
 
-Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTorrent protocol, built BitTorrent client software and promoted individuals and businesses to use their system. Is the building of BitTorrent (and other information distribution systems) an ethical pursuit? 
+Since 2004, BitTorrent Inc., a company formed by Cohen, has maintained the BitTorrent protocol, built BitTorrent client software and promoted individuals and businesses to use their system. Is the building of BitTorrent (and other information distribution systems) an ethical pursuit?
 
 In this paper I argue that the building of BitTorrent is ethical because it helps other users promote the public good by sharing information and promoting knowledge on a global level.
 \end{abstract}
@@ -52,7 +57,7 @@ In this paper I argue that the building of BitTorrent is ethical because it help
 \item In a few countries, people have been prosecuted for using BitTorrent for sharing illegal files and promoting copyright infringement. \cite{tpbverdict}
 \item In the United States of America, copyright holders have the exclusive right to reproduce their copyrighted work \cite{t17c1s106}.
 \item A EULA is an end-user license agreement, which is a type of software license agreement. It is a contract between the person who uses the software and the licensor (the creator) of the software.
-\item According to the United States of America, the limitations on exclusive rights inregards to computer programs allows users the freedom to use, archive, re-sale, and backup their software \cite{t17s117}.
+\item According to the United States of America, the limitations on exclusive rights in regards to computer programs allows users the freedom to use, archive, re-sale, and backup their software \cite{t17s117}.
 \item uTorrent's EULA does not restrict what content their users can distribute \cite{utorrentEula}.
 \item BitTorrent itself does not have a EULA \cite{utorrentEula}.
 \end{enumerate}
@@ -60,7 +65,8 @@ In this paper I argue that the building of BitTorrent is ethical because it help
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Research Question %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Research Question}
+\section{Ethical Question}
+
 Is the building and maintenance of BitTorrent (and other information distribution systems), an ethical pursuit?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,7 +74,10 @@ Is the building and maintenance of BitTorrent (and other information distributio
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Extant arguments}
 
+The issue of whether or not information distribution systems are ethical is usually not discussed. The reason for this is quite simple, if we prove that the building of an information distribution system is unethical, there is a slippery slope argument that says the creation of the Internet is therefore unethical because it is in essence an information distribution system. While there is not proof that this is why the issue is not argued, the topic is still valid. But because of the lack of discussion on the topic, most of the arguments do not explicitly address the issue, but rather areas the issue is involved in.
+
 \subsection{Arguments For}
+
 It is ethical to develop software to distribute information.
 
 \subsubsection{Argument One}
@@ -96,11 +105,19 @@ It is unethical to develop software to distribute information.
 
 \subsection{Why the SE Code Applies}
 
-Section 1.03 says that professional Software Engineers should ``approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good'' \cite[1.03]{secode}. This seems like a reasonable request. Make sure all software that passes your desk has an ultimate effect of public good. But what is ``Public Good''? According to Dictionary.com, public good is ``a good or service that is provided without profit for society collectively'' \cite{pubgooddef}. Is BitTorrent an application that contributes to the public good?
+The Software Engineering Code of Ethics applies to this question because Software Engineers are the one's designing and building these information distribution systems. Brad Cohen, the original author of the BitTorrent protocol, is a Software Engineer \cite{cohen}. Of course, not all information distribution systems are built by software engineers. Public libraries, the original information distribution systems, were originally devised and managed by different groups than those that built and designed the buildings that stored them. But this is besides the point, thanks to the internet most modern information distribution systems are built on top of the Internet, and because of this are created by software engineers.
+
+\subsection{BitTorrent and the Public Good}
+
+Section 1.03 says that professional Software Engineers should ``approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good'' \cite[1.03]{secode}. This seems like a reasonable request. Make sure all software that passes an engineer's desk has an ultimate effect of public good. But what is ``public good''? According to the dictionary, public good is ``a good or service that is provided without profit for society collectively'' \cite{pubgooddef}. Is BitTorrent an application that contributes to the public good?
+
+BitTorrent was originally a completely free service (cite?), but two years after Cohen invented the client and protocol, he created a for-profit company around the protocol. While BitTorrent Inc. is privately held, they have around forty employees and have been around since 2004. From this data, we can safely assume they are profitable, but until they become public or release their financial information, there is no way of knowing how profitable they really are. But if we make our assumption, BitTorrent, is by definition, not developed for the public good.
+
+\subsection{Promoting Public Knowledge}
 
 Section 6.02 of the software engineering code says that professional Software Engineers should ``promote public knowledge of software engineering'' \cite[6.02]{secode}. The whole concept of of information distribution systems are to promote the dissemination of information and increasing the public knowledge. If a piece of software does not care about what knowledge it is promoting, is it still ethical?
 
-\subsection{Publishers and the Public Good.}
+\subsection{Publishers and the Public Good}
 
 Book publishers are essentially information distribution systems. They take information (books) created by others and then distribute it to the masses. Depending on who you ask there are three possible guilty parties when content is distributed that you do not agree with. The first is the creator. The creator is the one who created the content initially and is often the source of information. Historically the creator is the one who wanted their information distributed. Now though, in our digital age, often the creator does not know who is distributing their content. The second guilty party is the editor. The editor took the creators content and put it into a format to be distributed. Finally there is the distributor. They take the edited work and send it off to people who want it (paying or otherwise).
 
@@ -112,9 +129,9 @@ The historical response is that you do not distribute information and/or data th
 
 So BitTorrent distributes anything, and because they profit off of the development of BitTorrent (source), we can say that they are guilty of breaking California State Law (BitTorrent Inc.'s offices are located in San Francisco, California). We can say this because of a ruling that the California District court system made in 2000, which stated that ``a defendant is vicariously liable for copyright infringement if he enjoys a direct financial benefit from another's infringing activity and `has the right and ability to supervise' the infringing activity'' \cite{2000m}.
 
-\subsection{The first amendment and personal expression}
+\subsection{The First Amendment and Personal Expression}
 
-The supreme court has said on multiple occasions that the main principle behind the first amendment is that the American people should be allowed to express ideas even if society does not agree with those ideas \cite[51]{1988hustler}. The problem is that what if the ideas they express are not originally theirs? We can argue about intellectual property and whether someone can actually own an idea, but the United States Copyright law says that ideas are not copyrightable \cite{t17c1s103}. The problem is that BitTorrent lets users distribute more than just ideas, it lets them distribute digital copies of works that are protected under copyright law. And no matter what anyone tells you, a digital copy is still a copy by definition (cite).
+The supreme court has said on multiple occasions that the main principle behind the first amendment is that the American people should be allowed to express ideas even if society does not agree with those ideas \cite[51]{1988hustler}. But what if the ideas they express are not originally theirs? We can argue about intellectual property and whether someone can actually own an idea, but the United States Copyright law says that ideas are not copyrightable \cite{t17c1s103}. The problem is that BitTorrent lets users distribute more than just ideas, it lets them distribute digital copies of works that are protected under copyright law. And no matter what anyone tells you, a digital copy is still a copy by definition (cite).
 
 %%%%%%%%%%%%%%%%%%
 %%% Conclusion %%%
@@ -123,6 +140,7 @@ The supreme court has said on multiple occasions that the main principle behind 
 Yes. Creating software to distribute information, no matter the information, is ethical.
 
 \newpage
+\singlespacing
 \bibliographystyle{IEEEannot}
 \bibliography{texreport}
 \end{document}
