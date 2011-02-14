@@ -430,4 +430,11 @@ For talk
     * Courts must classify defects
     * rational classification not possible.
 
+## 2.14.11
+
+ * IQ - Innovation Quest Meeting
+   * 4-5pm Tuesday
+   * 186-C101
+   * "Making a better world"
+ * Whee.
 
