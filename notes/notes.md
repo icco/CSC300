@@ -460,3 +460,40 @@ I gave my talk about building a personal website.
 ## 2.22.11
 
 Presentations since we didn't read Therac-25.
+
+### Ideas for my presentation
+
+look at section 6.06. Rawls vs. the law maybe?
+look at section 2.03 use of property
+second categorical imperitive
+Maslow's priority of needs
+section 3.12
+
+### IP Policy
+
+ * 1999 Bayh-Dole Act
+   * Old policy, students are commercial entities?
+   * justified by "subsidization" of student fees
+   * Student generated IP owned by Poly
+      * university owns the IP not the creator
+         * like a work for hire
+         * IBM vs Cal Poly IP rules
+   * what is the incentive to create?
+   * Claimed they owned Faculty research
+      * what is the polict at Stanford, UCLA?
+      * textbook royalties
+   * But gave lots of money to creator if they made it big.
+   * Required disclosure
+   * Any duty to protect or exploit the IP?
+
+ * 2002-2006 new policy
+   * You, the IP creator, own the IP
+   * University claims quity ownership
+      * Only when you use extraordinary resources
+   * Whenever you do team work, make sure you make a little IP agreement.
+   * different from UC system, which requires you signing the equivelent to an NDA
+      * but they have IP lawyers you can talk to.
+   * Students own all IPO, but teachers have right to use material in class.
+   * Slightly stricter equity sharing rules when you use the extraordinary resources
+   * Unresolved
+      * IP rights to group projects
