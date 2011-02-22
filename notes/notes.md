@@ -438,3 +438,17 @@ For talk
    * "Making a better world"
  * Whee.
 
+# 2.16.11
+
+ * Mutual exclusion
+   * see steve jackson's short entitled "Dekker"
+   * In a program, how do you make sure two processes don't overwrite each others memory.
+      * semaphores
+      * deadlocks, livelocks, starvation
+   * race conditions
+   * michael jackson - software requirements and specifications
+ * Where do you really look to find the correct solution?
+   * do you trust other solutions
+   * do you prove your own solution correct.
+ * Therac-25
+   * Target x-rays to the right level and burn it.
