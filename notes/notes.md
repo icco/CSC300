@@ -452,3 +452,11 @@ For talk
    * do you prove your own solution correct.
  * Therac-25
    * Target x-rays to the right level and burn it.
+
+## 2.19.11
+
+I gave my talk about building a personal website.
+
+## 2.22.11
+
+Presentations since we didn't read Therac-25.
