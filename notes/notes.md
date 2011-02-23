@@ -497,3 +497,64 @@ section 3.12
    * Slightly stricter equity sharing rules when you use the extraordinary resources
    * Unresolved
       * IP rights to group projects
+
+## 2.23.11
+
+ * Turner's interest in Copyright
+   * concerned with social understandings of math
+   * switched to law
+      * concerned with social and legal understandings of technical artifacts
+      * practiced commercial in NY
+   * software safety: software personal injury
+      * control of rights in safety critical code
+   * Now teaches "professional responsibilities"
+ * "free" and open exchange of information
+   * reasearch 
+   * progress
+   * student learning
+   * text
+   * better standards
+ * "capitialism" : IP "ownership" rights to own information
+   * right ot exclude others from info
+   * right to profit
+   * compared to: "an economic system based on private ownership of capital"
+ * What is copyright?
+   * is it an earthly property? NO.
+ * The only reason copyright works is because people beleive in it.
+ * Turner's Concern: Privatization of critical social information
+   * Copyright impedes software accident forensics
+   * Therac 25 illustrates this
+   * impedes progress in software "state of art"
+      * breach of social bargain struck by government in giving limited monopoly to authors
+ * What is copyright?
+   * Defines who has the right to copy
+ * Beginings
+   * 15th century stationers' guild
+      * guild register for books
+   * created licsensing rights, who could read the book
+   * Statute of Anne
+      * Rights given to authors, not publishers
+      * rights had a limited duration - 14 years
+      * abolished perpetual rights
+      * rights were limited to printing and reprinting
+      * publishers responsible to DEPOSIT COPIES in libraries
+ * Contours of the constitutional view
+   * purpose: promote science / useful arts
+   * who: authors
+   * how: exclusive rights
+   * How long: limited times
+   * for what: limited time
+ * patent
+   * for inventions not ideas
+   * independent discovery is still a violatio of rights.
+   * publication of ideas and careful explanation of invention required
+      * protection only granted for what is disclosed
+   * limited to ~17 years
+ * Trade Secret
+   * common law, not federal
+   * does not require any publication
+   * a contract theory to keep secrets
+      * lasts as long as the secret does
+ * Copyright: us law was extended so mickey mouse wouldn't appear in pornography
+ * congress says software in a literary work (1976)
+   * apple v franklin (1984)
