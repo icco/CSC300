@@ -488,10 +488,10 @@ section 3.12
 
  * 2002-2006 new policy
    * You, the IP creator, own the IP
-   * University claims quity ownership
+   * University claims equity ownership
       * Only when you use extraordinary resources
    * Whenever you do team work, make sure you make a little IP agreement.
-   * different from UC system, which requires you signing the equivelent to an NDA
+   * Different from UC system, which requires you signing the equivalent to an NDA
       * but they have IP lawyers you can talk to.
    * Students own all IPO, but teachers have right to use material in class.
    * Slightly stricter equity sharing rules when you use the extraordinary resources
@@ -509,29 +509,29 @@ section 3.12
       * control of rights in safety critical code
    * Now teaches "professional responsibilities"
  * "free" and open exchange of information
-   * reasearch 
+   * research 
    * progress
    * student learning
    * text
    * better standards
- * "capitialism" : IP "ownership" rights to own information
-   * right ot exclude others from info
+ * "capitalism" : IP "ownership" rights to own information
+   * right to exclude others from info
    * right to profit
    * compared to: "an economic system based on private ownership of capital"
  * What is copyright?
-   * is it an earthly property? NO.
- * The only reason copyright works is because people beleive in it.
+   * Is it an earthly property? NO.
+ * The only reason copyright works is because people believe in it.
  * Turner's Concern: Privatization of critical social information
    * Copyright impedes software accident forensics
-   * Therac 25 illustrates this
+   * Therac-25 illustrates this
    * impedes progress in software "state of art"
       * breach of social bargain struck by government in giving limited monopoly to authors
  * What is copyright?
    * Defines who has the right to copy
- * Beginings
+ * Beginnings
    * 15th century stationers' guild
       * guild register for books
-   * created licsensing rights, who could read the book
+   * created licensing rights, who could read the book
    * Statute of Anne
       * Rights given to authors, not publishers
       * rights had a limited duration - 14 years
@@ -546,8 +546,8 @@ section 3.12
    * for what: limited time
  * patent
    * for inventions not ideas
-   * independent discovery is still a violatio of rights.
-   * publication of ideas and careful explanation of invention required
+   * independent discovery is still a violation of rights.
+   * Publication of ideas and careful explanation of invention required
       * protection only granted for what is disclosed
    * limited to ~17 years
  * Trade Secret
@@ -557,4 +557,18 @@ section 3.12
       * lasts as long as the secret does
  * Copyright: us law was extended so mickey mouse wouldn't appear in pornography
  * congress says software in a literary work (1976)
-   * apple v franklin (1984)
+   * Apple v. Franklin (1984)
+ * Safety analysis primer:
+   * engineering progress depends on open social discussion of disastrous designs
+   * software engineering processes focus on communication of underlying design ideas
+   * source code is central, among other components/artifacts, to effective accident investigation
+ * Therac-25 medical linear accelerator case
+ * hospitals had killed patients due to machine
+   * wanted to do some analysis for its safety
+   * MFR refused to release code
+      * claimed they needed control for safety reasons
+ * Final Thoughts
+   * Public safety is in jeopardy due to natural rights view of software source code
+   * should safety-critical software be subject to open source law
+   * open records court rules in cases affecting public health and safety
+   * Force companies in safety critical systems put code in a public repository available for courts and after time.
