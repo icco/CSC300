@@ -572,3 +572,11 @@ section 3.12
    * should safety-critical software be subject to open source law
    * open records court rules in cases affecting public health and safety
    * Force companies in safety critical systems put code in a public repository available for courts and after time.
+
+## 2.25.11
+
+ * Therac thoughts
+   * Is it still true that the FDA doesn't approve everything?
+   * Single developer never a good idea.
+   * Why, in the first case, did the patient sue the manufacturer, not the hospital or the machine operator? Are there laws pertaining to this or was it just about the money?
+
