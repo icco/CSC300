@@ -580,3 +580,29 @@ section 3.12
    * Single developer never a good idea.
    * Why, in the first case, did the patient sue the manufacturer, not the hospital or the machine operator? Are there laws pertaining to this or was it just about the money?
 
+## 2.28.11
+
+Therac 25
+
+ * Real-time exec
+ * PDP-11 assembly code
+ * Memory errors
+   * Writing to the lower 4 bits versus the upper 4 bits
+ * IV&V - Independent Validation and Verification
+ * Does input -> spec -> output match input -> code -> output
+   * not just input, output, but also check code paths.
+ * IBM : Clean Room testing
+   * Coders don't know, ever meet testers.
+ * Wayuker
+   * must document what you test
+   * what were your inputs
+   * what were your outputs
+   * why were you right?
+   * pseudo-oracles?
+   * Parnas - but also document errors you got and how that effected your spec / code
+      * SE Code 3.11
+ * "Is there any possible way to overdose?" response was "No"
+   * didn't ask if it had happened
+   * negligence from hospital physicist
+ * Error messages not documented
+ * dosymmaters not speced for bad data
