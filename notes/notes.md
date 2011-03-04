@@ -606,3 +606,16 @@ Therac 25
    * negligence from hospital physicist
  * Error messages not documented
  * dosymmaters not speced for bad data
+
+## 3.4.11
+
+ * Science as "Hypothesis testing"
+ * CP focuses on product instead of maths
+ * process control model
+   * inputs -> process transformation -> outputs
+      * process of trasnfotmation -> sensors -> control -> actuators -> loop
+         * control - physical control law model of reality
+            * made by software developers
+            * must stay within control boundries
+         * sensors - vars for physical control
+         * actuators - implement physical control
