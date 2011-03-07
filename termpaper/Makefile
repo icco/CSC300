@@ -32,7 +32,7 @@ PSFLAGS   = -f -t letter -Ppdf
 all: ps pdf smallclean wordcount
 
 wordcount: *.tex
-	@perl ../texcount/texcount.pl *.tex
+	@perl ../texcount/texcount.pl -sub=section *.tex
 
 ps: $(NAME).ps
 
