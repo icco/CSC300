@@ -509,7 +509,7 @@ section 3.12
       * control of rights in safety critical code
    * Now teaches "professional responsibilities"
  * "free" and open exchange of information
-   * research 
+   * research
    * progress
    * student learning
    * text
@@ -619,3 +619,12 @@ Therac 25
             * must stay within control boundries
          * sensors - vars for physical control
          * actuators - implement physical control
+
+## 3.7.11
+
+ * talked about the ethics of him giving us a grade.
+ * I really should talk to Turner and Dalbey.
+
+ * Jasmine Revolution
+   * talked about other stuff.
+
