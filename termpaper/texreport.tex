@@ -11,6 +11,7 @@
 \usepackage{setspace}
 \usepackage{ulem}
 \usepackage{url}
+\usepackage{multicol}
 
 %%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
@@ -40,11 +41,16 @@ In this paper I argue that the development of BitTorrent by BitTorrent Inc. is e
 
 \thispagestyle{empty}
 \newpage
-\doublespacing
+
+% This spaces the lines more.
+%\doublespacing
 
 \thispagestyle{empty}
 \tableofcontents
 \newpage
+
+% OH DEAR GOD. TWO COLUMNS.
+\begin{multicols}{2}
 
 %%%%%%%%%%%%%%%%%%%%
 %%% Known Facts %%%%
@@ -190,6 +196,9 @@ According to Rawls, Social and economic inequalities are to be arranged so that 
 Yes. Creating software to distribute information impartially is ethical. Software the makes a judgment call about what is right and what is wrong is far less ethical because a company who creates it is pushing their ideals onto the infosphere.
 
 It was Socrates himself that said a well informed person is more likely to do the right thing.
+
+% THANKS JESUS. It's over.
+\end{multicols}
 
 \newpage
 \singlespacing
