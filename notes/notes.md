@@ -628,3 +628,27 @@ Therac 25
  * Jasmine Revolution
    * talked about other stuff.
 
+## 3.9.11
+
+ * Chuck Dana
+   * Retired
+   * Talks about getting accreditation.
+ * Many professions require a license to practice
+ * California does not require graduating from a accredited law school to pass bar exam.
+ * ACM
+   * Association for Computing Machines
+   * Against licensing in 1999
+   * If required to take PE
+      * "could detract from the study of more relevant areas"
+ * Probably take around three years to design software engineering licensing exam.
+ * Accreditation
+   * CSAB - Computer Science Accreditation Board
+      * Established by ACM + IEEE
+      * legal entity
+   * CSAC - Computer Science Accreditation Commission
+      * Formed by the chairs of the teams that visit universities
+   * Merged to form ABET
+      * Not an accronym anymore
+   * Universities do not need to be accredited
+   * "30 year experiment in improving Computer Science education"
+
